@@ -1,0 +1,8 @@
+# Go binaries
+mb
+marbles
+# Temp files
+tmp/
+*.test
+# Mac files
+.DS_Store

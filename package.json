@@ -1,0 +1,18 @@
+{
+  "name": "marbles",
+  "version": "1.0.0",
+  "description": "Lightweight project/task manager for humans and agents — CLI (`mb`) + pi extension",
+  "keywords": ["pi-package", "task-manager", "project-management", "cli"],
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./pi-extension/index.ts"],
+    "video": null,
+    "image": null
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
